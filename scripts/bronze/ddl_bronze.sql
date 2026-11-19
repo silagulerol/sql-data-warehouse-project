@@ -18,7 +18,7 @@ IF OBJECT_ID('bronze.crm_prd_info', 'U') IS NOT NULL
     DROP TABLE bronze.crm_prd_info;
 GO
 
-CREATE TABLE bronze.crm_prod_info(
+CREATE TABLE bronze.crm_prd_info(
     prd_id INT,
     prd_key NVARCHAR(50),
     prd_nm NVARCHAR(100),

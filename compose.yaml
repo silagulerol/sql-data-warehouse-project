@@ -16,6 +16,6 @@ services:
       - "1435:1433"
     volumes:
       - sql-dwh-project-data:/var/opt/mssql
-      - ./01_datasets:/var/opt/mssql/datasets
+      - /Users/silagulerol/Developer/sql-dwh-project-data/datasets:/var/opt/mssql/datasets
 volumes:
   sql-dwh-project-data:
